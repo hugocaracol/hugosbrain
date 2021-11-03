@@ -38,3 +38,7 @@ If you try this…
 ```
 
 …everything works as it should.
+
+
+
+![](../assets/profile-pic.jpg)
