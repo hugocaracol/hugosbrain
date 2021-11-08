@@ -50,7 +50,7 @@ This should never be done because the data would not be immutable, *if* anyone w
 
 
 
-## Find NFT metadata through Etherscan
+## <a id="find-nft-metadata"></a>Find NFT metadata through Etherscan
 
 Let's use [this](https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d?a=3958) NFT as an example.
 
