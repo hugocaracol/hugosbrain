@@ -47,24 +47,6 @@ Regarding data storage (baseURI and tokenURI), the best practice is to store it 
 
 This data should **never** be stored on a centralized hosting server like S3 or other alike.
 This should never be done because the data would not be immutable, *if* anyone who runs those servers can update the data **or** if someone stopped paying the bill for this service.
+---
+Related: [Find NFT metadata through Etherscan](find-nft-metadata-through-etherscan)
 
-
-
-## <a id="find-nft-metadata"></a>Find NFT metadata through Etherscan
-
-Let's use [this](https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d?a=3958) NFT as an example.
-
-Go to Contract tab, under "Read Contract" query tokenURI using the value 3958. You'll get this:
-```
-_string_ **:** ipfs://QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3958
-```
-
-Copy the string after "ipfs://" and use it to build a URL in this format: `https://ipfs.io/ipfs/(string you copied)`
-
-https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/3958
-
-You'll see the metadata for this particular NFT. Look for the key "image" and do as you did earlier. Copy the string after "ipfs://" and use it to build a URL in this format: `https://ipfs.io/ipfs/(string you copied)`
-
-https://ipfs.io/ipfs/Qmf5ZFdGJ59eudsmMy8zXdwNTd2yGNY2qrkszzQftgM32H
-
-And here's the image for that NFT.
