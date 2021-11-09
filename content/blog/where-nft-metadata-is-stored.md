@@ -47,6 +47,5 @@ Regarding data storage (baseURI and tokenURI), the best practice is to store it 
 
 This data should **never** be stored on a centralized hosting server like S3 or other alike.
 This should never be done because the data would not be immutable, *if* anyone who runs those servers can update the data **or** if someone stopped paying the bill for this service.
----
-Related: [Find NFT metadata through Etherscan](find-nft-metadata-through-etherscan)
+
 
